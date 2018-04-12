@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+    
+    
+    <style name="CustomOverflowButton" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:src">@android:drawable/btn_star</item>
+
+    </style>
+    
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="ToolbarOverlayTheme" parent="@style/DrawerArrowStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

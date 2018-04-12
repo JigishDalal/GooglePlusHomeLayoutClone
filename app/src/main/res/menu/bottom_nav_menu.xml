@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/action_message"
+    android:enabled="true"
+    android:visible="true"
+    android:iconTint="#000"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="Home"
+    app:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/action_message3"
+        android:enabled="true"
+        android:visible="true"
+        android:iconTint="#d2d2d2"
+        android:icon="@drawable/ic_layers_black_24dp"
+        android:title="Collections"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_message4"
+        android:enabled="true"
+        android:visible="true"
+        android:iconTint="#000"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Community"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_message5"
+        android:enabled="true"
+        android:visible="true"
+        android:iconTint="#000"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notifications"
+        app:showAsAction="always"
+        />
+</menu>

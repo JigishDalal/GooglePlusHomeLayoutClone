@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="People" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_manage2"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Send feedback" />
+
+        <item
+            android:id="@+id/nav_manage3"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+    </group>
+
+    <item android:title="Google apps">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/photo"
+                android:title="Google Photos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/hangouts"
+                android:title="Hangouts" />
+
+            <item
+                android:id="@+id/nav_send2"
+                android:icon="@drawable/search"
+                android:title="Google Search" />
+
+            <item
+                android:id="@+id/nav_send3"
+                android:icon="@drawable/ic_my_location_black_24dp"
+                android:title="Locations" />
+
+        </menu>
+    </item>
+
+</menu>
